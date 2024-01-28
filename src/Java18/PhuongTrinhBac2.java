@@ -37,7 +37,7 @@ public class PhuongTrinhBac2 {
                 }else{
                     // ax2 + c = 0
                     System.out.println("Phuong trinh co 2 nghiem");
-                    System.out.println("x1 = " + 1.0*Math.sqrt(-1.0*c/a));
+                    System.out.println("x1 = " + Math.sqrt(-1.0*c/a));
                     System.out.println("x1 = " + -1.0*Math.sqrt(-1.0*c/a));
                 }
             }else{
