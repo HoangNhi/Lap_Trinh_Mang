@@ -48,7 +48,7 @@ public class PhuongTrinhBac2 {
                 }else{
                     int delta = b*b - 4*a*c;
                     if(delta == 0){
-                        System.out.println("Phuong trinh co 1 nghiem: x = "+ (-1.0*b/(2*a)));
+                        System.out.println("Phuong trinh co nghiem kep: x = "+ (-1.0*b/(2*a)));
                     }else if(delta > 0){
                         System.out.println("Phuong trinh co 2 nghiem");
                         System.out.println("x1 = " + (-b - Math.sqrt(delta))/(2.0*a));
